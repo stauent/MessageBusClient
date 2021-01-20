@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\AzureSupportSecureConfiguration\ConfigurationAssistant\ConfigurationAssistant.csproj" />
+    <ProjectReference Include="..\..\AzureSupportSecureConfiguration\ServiceBusFacade\ServiceBusFacade.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

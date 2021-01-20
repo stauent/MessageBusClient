@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBusClient", "MessageBusClient\MessageBusClient.csproj", "{B05A7869-45A5-4B03-8495-B8D736AB4F9D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationAssistant", "..\AzureSupportSecureConfiguration\ConfigurationAssistant\ConfigurationAssistant.csproj", "{4A051598-404C-45DB-AAC9-6FF30505C496}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusFacade", "..\AzureSupportSecureConfiguration\ServiceBusFacade\ServiceBusFacade.csproj", "{0EC240FF-0B22-40A0-9DE7-D1EE06345081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B05A7869-45A5-4B03-8495-B8D736AB4F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05A7869-45A5-4B03-8495-B8D736AB4F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05A7869-45A5-4B03-8495-B8D736AB4F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A051598-404C-45DB-AAC9-6FF30505C496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A051598-404C-45DB-AAC9-6FF30505C496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A051598-404C-45DB-AAC9-6FF30505C496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A051598-404C-45DB-AAC9-6FF30505C496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC240FF-0B22-40A0-9DE7-D1EE06345081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC240FF-0B22-40A0-9DE7-D1EE06345081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC240FF-0B22-40A0-9DE7-D1EE06345081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC240FF-0B22-40A0-9DE7-D1EE06345081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
